@@ -1,0 +1,34 @@
+﻿*{
+    box-sizing:border-box;
+        font:veranda;
+}
+.row{
+    height:100vh;
+    display:grid;
+    margin-right:20px ;
+    grid-template-columns:repeat(3,1fr);
+    grid-column-gap:20px;
+    justify-content:center;
+    align-items:center;
+    justify-items:center;
+
+
+}
+.columnA,.columnB,.columnC{
+    background-color:gray;
+    border:5px solid;
+    padding:20px;
+
+}
+
+h3{
+    margin:0px;
+    text-align:right;
+}
+			} 
+
+
+
+
+
+
